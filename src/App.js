@@ -1,8 +1,8 @@
 import "./App.css";
 import { useState } from "react";
 import { tutorial } from "./tutorial";
-import ReactMarkdown from "https://esm.sh/react-markdown@7";
 import ResizeButton from "./components/ResizeButton";
+import ReactMarkdown from "react-markdown";
 
 function App() {
   const [text, setText] = useState(tutorial);
